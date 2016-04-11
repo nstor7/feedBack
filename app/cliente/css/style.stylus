@@ -1,0 +1,27 @@
+body
+    margin 0
+//encabezado
+header
+    background red
+    display block 
+    height 200px
+//barra de navegación
+nav
+    display block
+    height 50px
+    border 1px solid #e1e1e1
+nav ul 
+    margin auto
+    text-align center
+nav ul li 
+    display inline-block
+    vertical-align top
+    margin-right 1em
+nav ul li a
+    text-decoration none
+    line-height 50px
+    color #e1e1e1
+    font-size 1em
+    
+    
+    
