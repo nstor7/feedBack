@@ -4,7 +4,7 @@
   "description": "Revista de recursos humanos que busca aportar al crecimiento integral de los profesionales que aspiran a altos puestos ejecutivos.",
   "main": "index.js",
   "scripts": {
-    "serve": "NODE_PATH=. babel-node app/server --presets es2015"
+    "serve": "NODE_PATH=. babel-node app/index.js --presets es2015"
   },
   "repository": {
     "type": "git",
