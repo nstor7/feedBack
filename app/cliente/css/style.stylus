@@ -2,14 +2,15 @@ body
     margin 0
 //encabezado
 header
-    background red
     display block 
-    height 200px
+    height 120px
+    img
+        margin 10px 0 0 20px
 //barra de navegación
 nav
     display block
     height 50px
-    border 1px solid #e1e1e1
+    border 1px solid #bcb3b6
 nav ul 
     margin auto
     text-align center
@@ -20,8 +21,45 @@ nav ul li
 nav ul li a
     text-decoration none
     line-height 50px
-    color #e1e1e1
+    color #bcb3b6
     font-size 1em
+//seccion principal de la página
+main
+    width 1200px
+    margin 30px auto 
+//sección portada
+.portada
+    margin-bottom 20px
+figure
+    margin 0
+    display inline-block
+.principal
+    width 370px
+    display inline-block
+    margin-left 30px
+    vertical-align top
+//Sección Galería
+.pieza
+    width 370px
+    display inline-block
+    margin-right 30px
+    .titulo
+        background #22258c
+        color white
+        font-family arial
+        padding 5px 10px
+        width 200px
+        h2
+            margin 0
+    img
+        border-top 2px solid #22258c
+        padding-top 25px
+footer 
+    background #22258c
+    color #f8f7fc
+    height 200px
+    text-align center
+    padding-top 50px
     
     
     
