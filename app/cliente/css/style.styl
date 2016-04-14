@@ -1,11 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300,300italic)
 body
     margin 0
+    font-family muli 
 //encabezado
 header
     display block 
     height 120px
     img
-        margin 10px 0 0 20px
+        margin 10px 0 0 30px
 //barra de navegación
 nav
     display block
@@ -39,10 +41,13 @@ figure
     margin-left 30px
     vertical-align top
 //Sección Galería
+.galeria
+    width 770px
+    display flex
+    flex-wrap wrap
+    justify-content space-between
 .pieza
     width 370px
-    display inline-block
-    margin-right 30px
     .titulo
         background #22258c
         color white
@@ -54,6 +59,8 @@ figure
     img
         border-top 2px solid #22258c
         padding-top 25px
+.articulo
+    width 770px
 footer 
     background #22258c
     color #f8f7fc

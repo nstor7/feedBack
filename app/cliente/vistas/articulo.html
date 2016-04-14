@@ -1,0 +1,8 @@
+<section class="articulo">
+    <h2>{{articulo.titulo}}</h2>
+    <img src="imagenes/{{articulo.id}}.jpg" alt="{{articulo.titulo}}" width="100%">
+    <h5>{{articulo.autor}}</h5>
+    <artilcle class="contenido" ng-repeat="parrafo in articulo.contenido">
+        <p>{{parrafo}}</p>
+    </artilcle>
+</section>

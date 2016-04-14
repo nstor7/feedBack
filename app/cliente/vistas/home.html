@@ -1,0 +1,30 @@
+<section class="portada">
+            <figure>
+                <img src="imagenes/portada1.jpg" alt="portada" width="770px">
+                <figcaption></figcaption>
+            </figure>
+            <article class="principal">
+                <img src="imagenes/001.jpg" alt="Johany Cespedes" width="370px">
+                <h3>Johany Cespedes</h3>
+                <p>Licenciada en Turismo, Gerente de Recursos Humanos de Mar Azul, poseedora de una  vasta experiencia de importantes empresas como Mc donalds, Melo, Bandag y NHS.
+Nos comparte su experiencia, técnicas y claves de relaciones humanas.
+</p>
+            </article>
+        </section>
+        <section class="galeria">
+            <article  ng-repeat="articulo in articulos" class="pieza">
+               <a href="/#/articulo/{{articulo.id}}" >
+                <div class="titulo">
+                    <h2>{{articulo.seccion | uppercase}}</h2>
+                </div>
+                <img src="imagenes/{{articulo.id}}.jpg" alt="{{articulo.titulo}}" width="100%">
+                <h3>{{articulo.titulo}}</h3>
+                <p>{{articulo.comentario}}
+</p>
+           </a>
+            </article>
+            
+        </section>
+        <section class="derecha">
+            <aside></aside>
+        </section>

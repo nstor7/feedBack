@@ -1,0 +1,14 @@
+        <section class="galeria">
+            <article  ng-repeat="articulo in articulos" class="pieza">
+               <a href="/#/articulo/{{articulo.id}}" >
+                <div class="titulo">
+                    <h2>{{articulo.seccion | uppercase}}</h2>
+                </div>
+                <img src="imagenes/{{articulo.id}}.jpg" alt="{{articulo.titulo}}" width="100%">
+                <h3>{{articulo.titulo}}</h3>
+                <p>{{articulo.comentario}}
+</p>
+           </a>
+            </article>
+            
+        </section>
