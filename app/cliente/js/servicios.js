@@ -45,13 +45,13 @@
             return deferred.promise
         }
         function bySeccion(seccion) {
-        type = normalize(seccion);
+        
         var deferred = $q.defer();
 
         all().then(function (data) {
           var results = data.filter(function (articulos) {
-            return articulos.type.some(function (t) {
-              return normalize(seccion) === seccion;
+            return articulos.section.some(function (secction) {
+              return articulos.seccion === seccion;
             });
           });
 

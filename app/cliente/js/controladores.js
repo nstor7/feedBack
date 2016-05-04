@@ -8,8 +8,9 @@
                 $scope.articulos = data
             })
         } else if(seccion){
-            familiaService.bySeccion(seccion).then(function (data){
-                $scope.familiares = data;
+            articuloService.bySeccionId(seccionId)
+                .then(function(data){
+                $scope.seccionId = data;
             });
        } else{
             articuloService.all()

@@ -17,7 +17,7 @@
         templateUrl: '/vistas/articulo.html',
         controller: 'articuloController'
         })
-        .when('/:seccion', {
+        .when('/:seccionId', {
         templateUrl: '/vistas/seccion.html',
         controller: 'articulosController'
         })
