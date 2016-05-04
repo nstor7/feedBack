@@ -4,4 +4,4 @@ var app = express()
 
 app.use(express.static('app/cliente'))
 
-app.listen(3000, () => console.log('servidor iniciado en el puerto 3000'))
+app.listen(8080, () => console.log('servidor iniciado en el puerto 8080'))
