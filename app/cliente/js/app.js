@@ -22,7 +22,7 @@
         controller: 'articulosController'
         })
         .otherwise({
-            redirectTo: '/nuevo'
+            redirectTo: '/portada'
         })
     }])
 })()
