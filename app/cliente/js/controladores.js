@@ -7,12 +7,7 @@
             .then(function(data){
                 $scope.articulos = data
             })
-        } else if(seccion){
-            articuloService.bySeccionId(seccionId)
-                .then(function(data){
-                $scope.seccionId = data;
-            });
-       } else{
+        } else{
             articuloService.all()
                 .then(function(data){
                 $scope.articulos = data

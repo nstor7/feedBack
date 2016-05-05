@@ -4,7 +4,7 @@
             "titulo": "Johany Cespedes",
             "seccion": "Entrevista",
             "seccionId": 2,
-           "clasificacion": "titular",
+           "clasificacion": "entrevista",
             "autor": "fulanito",
             "comentario": "Licenciada en Turismo, Gerente de Recursos Humanos de Mar Azul, poseedora de una  vasta experiencia de importantes empresas como Mc donalds, Melo, Bandag y NHS. Nos comparte su experiencia, técnicas y claves de relaciones humanas."
     },
@@ -13,7 +13,7 @@
             "titulo": "En tu Trabajo cuidas tu alimentación?",
             "seccion": "Estilo de Vida",
             "seccionId": 4,
-            "clasificacion": "portada",
+            "clasificacion": "estilo",
             "autor": "Yoryana lopez ",
             "comentario": "Nuestras horas laborables son de 8  y   Es muy común que en el trabajo estés obligado a comer mucho más deprisa o frente a la computadora, y creme este es uno de los peores hábitos ya que tus alimentos influyen en tu rendimiento."
         },
@@ -22,7 +22,7 @@
             "titulo": "El difícil contexto externo",
             "seccion": "Opinión",
             "seccionId": 3,
-            "clasificacion": "portada",
+            "clasificacion": "opinion",
             "autor": "Juan Jované ",
             "comentario": "La habilidad de realizar proyecciones relativas al  impacto de la situación internacional sobre la economía panameña no constituye una especial habilidad de los altos funcionarios de gobierno. Así lo muestran algunos hechos recientes, como otros de mayor data.",
             "contenido": [
@@ -47,7 +47,7 @@
             "titulo": "Evaluación del desempeño, hablemos de resultados…",
             "seccion": "Gestión",
             "seccionId": 1,
-            "clasificacion": "portada",
+            "clasificacion": "gestion",
             "autor": "JDra. Martha García Gil",
             "comentario": "La evaluación del desempeño (*evad en adelante) es una herramienta esencial para la gestión del talento. "
        },
@@ -56,7 +56,7 @@
             "titulo": "Leadership Value is Defined by the Receiver",
             "seccion": "Gestión",
             "seccionId": 1,
-            "clasificacion": "titular",
+            "clasificacion": "gestion",
             "autor": "Dave Ulrich",
             "comentario": "We all resonate with the clarion call for leaders to build on their strengths, be authentic, and demonstrate emotional intelligence.  We can envision these noble, resonant, and genuine leaders as icons of effective leadership.",
             "contenido": [
@@ -79,7 +79,7 @@
             "titulo": "Mejorando Nuestro Nivel de Empleabilidad",
             "seccion": "Gestión",
             "seccionId": 1,
-            "clasificacion": "portada",
+            "clasificacion": "gestion",
             "autor": "Inés Temple",
             "comentario": "La empleabilidad es el paradigma fundamental de nuestra vida laboral. Construirla, desarrollarla y mostrarla es nuestra tarea permanente. Para ello es clave entenderla, conocer sus bondades y limitaciones, y saber cómo mejorarla.",
             "contenido": [
@@ -101,7 +101,7 @@
             "titulo": "¿Quien espera, desespera?",
             "seccion": "Gestión",
             "seccionId": 1,
-            "clasificacion": "portada",
+            "clasificacion": "gestion",
             "autor": "Franc Ponti",
             "comentario": "“La paciencia es la madre de la ciencia”, dicen los sabios. Seguramente es cierto. Pero, ¿lo es también de la empresa? Me temo que no. Al menos en la mayoría de los casos. Estamos escandalosamente orientados al corto plazo.",
             "contenido": [
@@ -119,7 +119,7 @@
             "titulo": "Valorar un candidato",
             "seccion": "Gestión",
             "seccionId": 1,
-            "clasificacion": "portada",
+            "clasificacion": "gestion",
             "autor": "Angel Solà",
             "comentario": "Describir las cualidades que sobresalen a la hora de seleccionar a un trabajador, no debería ser una tarea muy compleja.",
              "contenido": [
@@ -145,7 +145,7 @@
             "titulo": "Tips para el buen vestir en el ámbito laboral.",
             "seccion": "Estilo de Vida",
             "seccionId": 4,
-            "clasificacion": "portada",
+            "clasificacion": "estilo",
             "autor": "Tere Feuillet",
             "comentario": "En estos tiempos, la oferta de moda tanto en variedad de estilos y accesibilidad de precios, vestir para la oficina puede hacerse de manera divertida y mostrando la individualidad mientras se mantiene una apariencia profesional y elegante; nos salimos del uniforme y lo aburrido para entrar en un mundo en el que podemos jugar con el look, siendo siempre sofisticados y respetando el código de vestimenta de la empresa.",
              "contenido": [

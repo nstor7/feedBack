@@ -4,22 +4,34 @@
                 <figcaption></figcaption>
             </figure>
             <article class="principal">
-                <img src="imagenes/005.jpg" alt="Johany Cespedes" width="370px">
-                <h3>Johany Cespedes</h3>
-                <p>Licenciada en Turismo, Gerente de Recursos Humanos de Mar Azul, poseedora de una  vasta experiencia de importantes empresas como Mc donalds, Melo, Bandag y NHS.
-Nos comparte su experiencia, técnicas y claves de relaciones humanas.
+                <a href="/#/articulo/{{articulos[4].id}}" >
+                <img src="imagenes/{{articulos[4].id}}.jpg" alt="{{articulos[4].titulo}}" width="100%">
+                <h3>{{articulos[4].titulo}}</h3>
+                <p>{{articulos[4].comentario}}
 </p>
+           </a>
             </article>
         </section>
         <section class="galeria">
-            <article  ng-repeat="articulo in articulos" class="pieza">
-               <a href="/#/articulo/{{articulo.id}}" >
+            <article class="pieza">
+               <a href="/#/articulo/{{articulos[1].id}}" >
                 <div class="titulo">
-                    <h2>{{articulo.seccion | uppercase}}</h2>
+                    <h2>{{articulos[1].seccion | uppercase}}</h2>
                 </div>
-                <img src="imagenes/{{articulo.id}}.jpg" alt="{{articulo.titulo}}" width="100%">
-                <h3>{{articulo.titulo}}</h3>
-                <p>{{articulo.comentario}}
+                <img src="imagenes/{{articulos[1].id}}.jpg" alt="{{articulos[1].titulo}}" width="100%">
+                <h3>{{articulos[1].titulo}}</h3>
+                <p>{{articulos[1].comentario}}
+</p>
+           </a>
+            </article>
+            <article class="pieza">
+               <a href="/#/articulo/{{articulos[2].id}}" >
+                <div class="titulo">
+                    <h2>{{articulos[2].seccion | uppercase}}</h2>
+                </div>
+                <img src="imagenes/{{articulos[2].id}}.jpg" alt="{{articulos[1].titulo}}" width="100%">
+                <h3>{{articulos[2].titulo}}</h3>
+                <p>{{articulos[2].comentario}}
 </p>
            </a>
             </article>

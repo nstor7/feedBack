@@ -44,29 +44,11 @@
             })
             return deferred.promise
         }
-        function bySeccion(seccion) {
-        
-        var deferred = $q.defer();
-
-        all().then(function (data) {
-          var results = data.filter(function (articulos) {
-            return articulos.section.some(function (secction) {
-              return articulos.seccion === seccion;
-            });
-          });
-
-          deferred.resolve(results);
-        });
-
-        return deferred.promise;
-      }
-
 
       return {
         all: all,
         byId: byId,
         byClasificacion: byClasificacion,
-        bySeccion: bySeccion
       };
 
     }]);

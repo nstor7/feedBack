@@ -9,20 +9,20 @@
     app.config(['$routeProvider', function($routeProvider){
         
         $routeProvider
-        .when('/:clasificacion', {
+        .when('/', {
             templateUrl: '/vistas/home.html',
+            controller: 'articulosController'
+        })
+        .when('/:clasificacion', {
+            templateUrl: '/vistas/seccion.html',
             controller: 'articulosController'
         })
         .when('/articulo/:id', {
         templateUrl: '/vistas/articulo.html',
         controller: 'articuloController'
         })
-        .when('/:seccionId', {
-        templateUrl: '/vistas/seccion.html',
-        controller: 'articulosController'
-        })
         .otherwise({
-            redirectTo: '/portada'
+            redirectTo: '/'
         })
     }])
 })()
